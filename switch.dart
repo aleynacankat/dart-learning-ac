@@ -7,7 +7,7 @@ void main() {
 // diger durumlarda basaririz
 // if else e göre daha anlasilir ve kontrol edilebilirdir.
 
-const int succesValueHigh = 2;
+const int successValueHigh = 2;
 
 switch(classDegree){
   case 2:
