@@ -44,5 +44,23 @@ print(customerMoney);
 //Customers 100 30 40 60 
 // 35 TL'den buyuk olanlari bul
 // kucuk olanlara 02.07.2022
+
+List<int> moneyCustomerNews = [100, 30, 40, 60];
+
+for (int index = 0; index < moneyCustomerNews.length; index += 1) {
+  print('musteri parasi: ${moneyCustomerNews[index]}');
+  if (moneyCustomerNews[index] > 35) {
+    print('Kredi hazir');
+  } else if (moneyCustomerNews[index] > 0) {
+    print('kredi veremeyiz ama bi bakalim');
+  } else {
+      print('by');
+  }
+  }
+
+
+
+  
 }
+
 
